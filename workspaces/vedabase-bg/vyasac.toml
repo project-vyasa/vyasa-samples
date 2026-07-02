@@ -1,4 +1,5 @@
 [workspace]
+id = "vedabase-bg"
 name = "Bhagavad Gita (Vedabase)"
 path_schema = ["chapter"]
 

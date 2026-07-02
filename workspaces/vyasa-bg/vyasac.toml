@@ -1,4 +1,5 @@
 [workspace]
+id = "vyasa-bg"
 name = "Bhagavad Gita"
 description = "Bhagavad Gita with Devanagari and IAST streams."
 path_schema = ["chapter"]

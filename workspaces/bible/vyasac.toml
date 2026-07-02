@@ -1,4 +1,5 @@
 [workspace]
+id = "bible"
 name = "Bible Sample"
 source = "https://www.bible.com/bible/111/JHN.14.NIV"
 path_schema = []

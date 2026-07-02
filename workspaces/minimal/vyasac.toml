@@ -1,4 +1,5 @@
 [workspace]
+id = "minimal"
 name = "Minimal Sample"
 version = "0.1.0"
 path_schema = []
