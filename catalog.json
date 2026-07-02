@@ -1,0 +1,34 @@
+{
+  "catalog": {
+    "publisher": "vysamples",
+    "description": "Sample publications for Project Vyasa",
+    "contact": "hello@project-vyasa.org"
+  },
+  "items": [
+    {
+      "id": "output",
+      "name": "Bible Sample",
+      "payloadUrl": "bible.vyview"
+    },
+    {
+      "id": "output",
+      "name": "Minimal Sample",
+      "payloadUrl": "minimal.vyview"
+    },
+    {
+      "id": "output",
+      "name": "Bhagavad Gita",
+      "payloadUrl": "vyasa-bg.vyview"
+    },
+    {
+      "id": "output",
+      "name": "Intimate Note Sample",
+      "payloadUrl": "intimate-note.vyview"
+    },
+    {
+      "id": "output",
+      "name": "Bhagavad Gita (Vedabase)",
+      "payloadUrl": "vedabase-bg.vyview"
+    }
+  ]
+}
