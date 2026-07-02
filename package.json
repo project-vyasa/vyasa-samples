@@ -1,0 +1,13 @@
+{
+  "name": "vyasa-samples",
+  "version": "1.0.0",
+  "description": "Vyasa sample publications",
+  "scripts": {
+    "build": "bun run scripts/build.ts",
+    "deploy": "gh-pages -d dist --dotfiles --nojekyll"
+  },
+  "devDependencies": {
+    "gh-pages": "^6.1.1",
+    "@types/bun": "^1.1.5"
+  }
+}
