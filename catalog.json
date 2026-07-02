@@ -6,27 +6,27 @@
   },
   "items": [
     {
-      "id": "output",
+      "id": "bible",
       "name": "Bible Sample",
       "payloadUrl": "bible.vyview"
     },
     {
-      "id": "output",
+      "id": "minimal",
       "name": "Minimal Sample",
       "payloadUrl": "minimal.vyview"
     },
     {
-      "id": "output",
+      "id": "vyasa-bg",
       "name": "Bhagavad Gita",
       "payloadUrl": "vyasa-bg.vyview"
     },
     {
-      "id": "output",
+      "id": "intimate-note",
       "name": "Intimate Note Sample",
       "payloadUrl": "intimate-note.vyview"
     },
     {
-      "id": "output",
+      "id": "vedabase-bg",
       "name": "Bhagavad Gita (Vedabase)",
       "payloadUrl": "vedabase-bg.vyview"
     }
