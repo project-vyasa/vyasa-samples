@@ -11,11 +11,6 @@
       "payloadUrl": "bible.vyview"
     },
     {
-      "id": "minimal",
-      "name": "Minimal Sample",
-      "payloadUrl": "minimal.vyview"
-    },
-    {
       "id": "vyasa-bg",
       "name": "Bhagavad Gita",
       "payloadUrl": "vyasa-bg.vyview"
