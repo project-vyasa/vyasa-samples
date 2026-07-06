@@ -4,6 +4,7 @@
   "description": "Vyasa sample publications",
   "scripts": {
     "build": "bun run scripts/build.ts",
+    "dev": "bunx sirv-cli dist --cors --port 8080",
     "deploy": "gh-pages -d dist --dotfiles --nojekyll"
   },
   "devDependencies": {

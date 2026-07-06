@@ -10,7 +10,7 @@ mkdirSync(distDir, { recursive: true });
 const catalogItems = [];
 
 const dirs = readdirSync(workspacesDir, { withFileTypes: true })
-  .filter(d => d.isDirectory())
+  .filter(d => d.isDirectory() && d.name !== 'minimal')
   .map(d => d.name);
 
 for (const dir of dirs) {
@@ -19,7 +19,7 @@ for (const dir of dirs) {
   
   // Run pack for view target
   console.log(`Packing view...`);
-  execSync(`cargo run --manifest-path ../vyasa/vyasac/Cargo.toml -- pack ${projectPath} --target view`, { stdio: 'inherit' });
+  execSync(`cargo run --manifest-path ../vyasa/vyasac/Cargo.toml -- pack --target view ${projectPath}`, { stdio: 'inherit' });
 
   // Copy output artifacts to dist
   const outTypes = ['sqlite', 'vyview', 'zip', 'catalog.json'];
@@ -39,7 +39,7 @@ for (const dir of dirs) {
   try {
     const catSrc = join(projectPath, "output", `${dir}.catalog.json`);
     const data = JSON.parse(readFileSync(catSrc, "utf8"));
-    catalogItems.push(data);
+    catalogItems.push({ id: data.id, title: data.name || data.title, vyviewUrl: data.payloadUrl || data.vyviewUrl });
   } catch (e) {
     console.warn(`Could not read catalog for ${dir}`);
   }
@@ -47,12 +47,10 @@ for (const dir of dirs) {
 
 // Generate unified catalog
 const globalCatalog = {
-  catalog: {
-    publisher: "Project Vyasa Samples",
-    description: "Sample publications for Project Vyasa",
-    contact: "hello@project-vyasa.org"
-  },
-  items: catalogItems
+  schemaVersion: "0.1.0",
+  identifier: "project-vyasa-samples",
+  title: "Project Vyasa Samples",
+  publications: catalogItems
 };
 
 writeFileSync(join(distDir, "catalog.json"), JSON.stringify(globalCatalog, null, 2));

@@ -1,17 +1,15 @@
 [workspace]
-id = "vyasa-bg"
-name = "Bhagavad Gita"
+name = "vyasa-bg"
+title = "Bhagavad Gita"
 description = "Bhagavad Gita with Devanagari and IAST streams."
 path_schema = ["chapter"]
+publisher = "../../"
 
 [urn]
-publisher = "vyasa.io"
 corpus = "bg"
 hierarchy = ["chapter", "verse"]
+bit_layout = [16, 16]
 
-[build]
-publication = "vyasa.org:bg:default"
-layout = "sequence"
-templates = ["html"]
+[build.default]
 target = "view"
-output = "vyasa-bg.vyview"
+output_dir = "build"

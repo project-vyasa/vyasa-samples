@@ -1,18 +1,16 @@
 [workspace]
-id = "intimate-note"
-name = "Intimate Note Sample"
+name = "intimate-note"
+title = "Intimate Note Sample"
 version = "0.1.0"
 source = "https://www.it.iitb.ac.in/~sri/ssrvm/knowledge.htm"
 path_schema = []
+publisher = "../../"
 
 [urn]
-publisher = "intimate.org"
 corpus = "note"
 hierarchy = ["number"]
+bit_layout = [16]
 
-[build]
-publication = "ssrvm.org:intimate-note:default"
-layout = "sequence"
-templates = ["html"]
+[build.default]
 target = "view"
-output = "intimate-note.vyview"
+output_dir = "build"

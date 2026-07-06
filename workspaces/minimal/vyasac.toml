@@ -1,17 +1,16 @@
 [workspace]
-id = "minimal"
-name = "Minimal Sample"
+name = "minimal"
+title = "Minimal Sample"
 version = "0.1.0"
 path_schema = []
+publisher = "../../"
 
 [urn]
-publisher = "minimal.org"
 corpus = "min"
 hierarchy = ["chapter"]
+bit_layout = [16]
 
-[build]
-publication = "vyasa:minimal:default"
+[build.default]
 layout = "document"
-templates = ["html"]
 target = "view"
-output = "minimal.vyview"
+output_dir = "build"

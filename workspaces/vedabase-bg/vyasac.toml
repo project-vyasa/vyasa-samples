@@ -1,20 +1,19 @@
 [workspace]
-id = "vedabase-bg"
-name = "Bhagavad Gita (Vedabase)"
+name = "vedabase-bg"
+title = "Bhagavad Gita (Vedabase)"
 path_schema = ["chapter"]
+publisher = "../../"
 
 [urn]
-publisher = "vedabase.sample"
 corpus = "bg"
 hierarchy = ["chapter", "verse"]
+bit_layout = [16, 16]
 
-[build]
+[build.default]
 enable_markdown = true
-publication = "vedabase.sample:bg"
 layout = "document"
-templates = ["html"]
 target = "view"
-output = "vedabase-bg.vyview"
+output_dir = "build"
 
 [build.view]
 package = true
