@@ -1,10 +1,5 @@
 {
   "id": "output",
   "name": "intimate-note",
-  "payloadUrl": "intimate-note.vyview",
-  "tree": [
-    1,
-    107,
-    190
-  ]
+  "payloadUrl": "intimate-note.vyview"
 }

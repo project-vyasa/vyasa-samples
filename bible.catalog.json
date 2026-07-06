@@ -1,8 +1,5 @@
 {
   "id": "output",
   "name": "bible",
-  "payloadUrl": "bible.vyview",
-  "tree": [
-    14
-  ]
+  "payloadUrl": "bible.vyview"
 }
