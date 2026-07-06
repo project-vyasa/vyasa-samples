@@ -1,5 +1,8 @@
 {
-  "id": "bible",
-  "name": "Bible Sample",
-  "payloadUrl": "bible.vyview"
+  "id": "output",
+  "name": "bible",
+  "payloadUrl": "bible.vyview",
+  "tree": [
+    14
+  ]
 }
