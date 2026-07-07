@@ -13,4 +13,3 @@ bit_layout = [16]
 
 [build.default]
 layout = "document"
-target = "view"

@@ -2,7 +2,6 @@
 name = "intimate-note"
 title = "Intimate Note Sample"
 version = "0.1.0"
-source = "https://www.it.iitb.ac.in/~sri/ssrvm/knowledge.htm"
 [publish]
 publisher_dir = "../../"
 
@@ -13,4 +12,3 @@ hierarchy = ["number"]
 bit_layout = [16]
 
 [build.default]
-target = "view"
