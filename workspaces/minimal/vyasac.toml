@@ -2,10 +2,11 @@
 name = "minimal"
 title = "Minimal Sample"
 version = "0.1.0"
-path_schema = []
-publisher = "../../"
+[publish]
+publisher_dir = "../../"
 
 [urn]
+path_schema = ["chapter"]
 corpus = "min"
 hierarchy = ["chapter"]
 bit_layout = [16]
@@ -13,4 +14,3 @@ bit_layout = [16]
 [build.default]
 layout = "document"
 target = "view"
-output_dir = "build"

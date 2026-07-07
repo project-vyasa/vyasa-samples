@@ -36,3 +36,4 @@
   "śrī-bhagavān" = "{ type=\"person\" }"
   "Kurukṣetra" = "{ type=\"place\" }"
 }
+`set path_schema = ["chapter"]

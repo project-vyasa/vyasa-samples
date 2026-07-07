@@ -1,35 +1,23 @@
 [workspace]
 name = "vedabase-bg"
 title = "Bhagavad Gita (Vedabase)"
-path_schema = ["chapter"]
-publisher = "../../"
+
+[publish]
+publisher_dir = "../../"
 
 [urn]
+path_schema = ["chapter", "verse"]
 corpus = "bg"
 hierarchy = ["chapter", "verse"]
-bit_layout = [16, 16]
 
 [build.default]
 enable_markdown = true
 layout = "document"
 target = "view"
-output_dir = "build"
-
-[build.view]
-package = true
-
-[build.view.reading]
-layout = "grid"
-streams = [
-    { name = "mula", source = "dependency.base_corpus.mula" },
-    { name = "iast", source = "dependency.base_corpus.iast" },
-    { name = "translation", source = "local.translation" },
-]
-
 [dependencies]
 base_corpus = { package = "vyasa-bg" }
 
 [streams]
-mula = "content/mula"
-iast = "content/iast"
-translation = "content/translation"
+mula = { path = "content/mula" }
+iast = { path = "content/iast" }
+translation = { path = "content/translation" }

@@ -20,3 +20,4 @@
 // Action
 `command-def { name="uvacha" category="action" }
 `command-def { name="uvaca" category="action" }
+`set path_schema = ["chapter"]

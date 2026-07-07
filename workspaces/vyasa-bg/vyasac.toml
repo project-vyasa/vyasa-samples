@@ -2,14 +2,13 @@
 name = "vyasa-bg"
 title = "Bhagavad Gita"
 description = "Bhagavad Gita with Devanagari and IAST streams."
-path_schema = ["chapter"]
-publisher = "../../"
+[publish]
+publisher_dir = "../../"
 
 [urn]
+path_schema = ["chapter"]
 corpus = "bg"
 hierarchy = ["chapter", "verse"]
-bit_layout = [16, 16]
 
 [build.default]
 target = "view"
-output_dir = "build"

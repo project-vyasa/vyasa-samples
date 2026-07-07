@@ -1,0 +1,5 @@
+[publisher]
+identifier = "vysamples"
+title = "Project Vyasa Samples"
+url = "https://github.com/project-vyasa/vyasa-samples"
+catalog_url = "https://project-vyasa.github.io/vyasa-samples/catalog.json"
