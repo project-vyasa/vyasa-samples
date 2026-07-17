@@ -1,5 +1,6 @@
 [workspace]
 name = "intimate-note"
+id = "note"
 title = "Intimate Note Sample"
 version = "0.1.0"
 [publish]
@@ -7,7 +8,6 @@ publisher_dir = "../../"
 
 [urn]
 path_schema = ["chapter"]
-corpus = "note"
 hierarchy = ["number"]
 bit_layout = [16]
 

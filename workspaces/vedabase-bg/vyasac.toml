@@ -1,5 +1,6 @@
 [workspace]
 name = "vedabase-bg"
+id = "bg"
 title = "Bhagavad Gita (Vedabase)"
 
 [publish]
@@ -7,7 +8,6 @@ publisher_dir = "../../"
 
 [urn]
 path_schema = ["chapter", "verse"]
-corpus = "bg"
 hierarchy = ["chapter", "verse"]
 
 [build.default]
