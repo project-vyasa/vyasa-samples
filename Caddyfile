@@ -1,0 +1,26 @@
+:8080 {
+	header {
+		Access-Control-Allow-Origin "*"
+		Access-Control-Allow-Methods "GET, POST, OPTIONS"
+		Access-Control-Allow-Headers "*"
+	}
+
+	# Local Registry
+	handle /registry.json {
+		root * /Users/anand/Projects/project-vyasa/vyasa-samples
+		rewrite * /local-registry.json
+		file_server
+	}
+
+	# Publisher 1: Project Vyasa Samples
+	handle_path /vysamples/* {
+		root * /Users/anand/Projects/project-vyasa/vyasa-samples/dist
+		file_server
+	}
+
+	# Publisher 2: Muktabodha Digital Library
+	handle_path /muktabodha/* {
+		root * /Users/anand/Projects/project-vyasa/muktabodha.org/dist
+		file_server
+	}
+}

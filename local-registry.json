@@ -1,0 +1,15 @@
+{
+  "schemaVersion": "1.0.0",
+  "publishers": [
+    {
+      "identifier": "vysamples",
+      "title": "Project Vyasa Samples",
+      "catalog_url": "http://localhost:8080/vysamples/catalog.json"
+    },
+    {
+      "identifier": "muktabodha",
+      "title": "Muktabodha Digital Library",
+      "catalog_url": "http://localhost:8080/muktabodha/catalog.json"
+    }
+  ]
+}
