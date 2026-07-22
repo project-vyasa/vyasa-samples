@@ -1,3 +1,5 @@
+`set context { chapter.title = "Jñāna-karma-sannyāsa-yogaḥ" }
+
 `v 1 [
 śrī-bhagavān uvāca
 imaṁ vivasvate yogaṁ

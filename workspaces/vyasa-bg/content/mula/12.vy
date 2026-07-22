@@ -1,3 +1,5 @@
+`set context { chapter.title = "भक्तियोगः" }
+
 `arjuna `uvacha
 `v 1 [
 अर्जुन उवाच

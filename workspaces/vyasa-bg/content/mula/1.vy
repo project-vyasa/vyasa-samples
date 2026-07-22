@@ -1,3 +1,5 @@
+`set context { chapter.title = "अर्जुनविषादयोगः" }
+
 `dhritarashtra `uvacha
 `v 1 [
 धृतराष्ट्र उवाच

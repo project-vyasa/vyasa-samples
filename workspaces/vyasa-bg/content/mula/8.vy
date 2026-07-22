@@ -1,3 +1,5 @@
+`set context { chapter.title = "अक्षरब्रह्मयोगः" }
+
 `arjuna `uvacha
 `v 1 [
 अर्जुन उवाच

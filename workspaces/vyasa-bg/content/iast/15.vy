@@ -1,3 +1,5 @@
+`set context { chapter.title = "Puruṣottama-yogaḥ" }
+
 `v 1 [
 śrī-bhagavān uvāca
 ūrdhva-mūlam adhaḥ-śākham

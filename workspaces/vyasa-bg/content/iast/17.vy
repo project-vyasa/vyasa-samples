@@ -1,3 +1,5 @@
+`set context { chapter.title = "Śraddhā-traya-vibhāga-yogaḥ" }
+
 `arjuna `uvacha
 `v 1 [
 arjuna uvāca

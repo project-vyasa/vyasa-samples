@@ -1,3 +1,5 @@
+`set context { chapter.title = "Ātma-saṃyama-yogaḥ" }
+
 `v 1 [
 śrī-bhagavān uvāca
 anāśritaḥ karma-phalaṁ

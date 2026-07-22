@@ -1,3 +1,5 @@
+`set context { chapter.title = "कर्मसन्न्यासयोगः" }
+
 `arjuna `uvacha
 `v 1 [
 अर्जुन उवाच

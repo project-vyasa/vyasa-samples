@@ -1,3 +1,5 @@
+`set context { chapter.title = "Guṇa-traya-vibhāga-yogaḥ" }
+
 `v 1 [
 śrī-bhagavān uvāca
 paraṁ bhūyaḥ pravakṣyāmi

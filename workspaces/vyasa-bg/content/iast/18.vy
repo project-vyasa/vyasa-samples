@@ -1,3 +1,5 @@
+`set context { chapter.title = "Mokṣa-sannyāsa-yogaḥ" }
+
 `v 1 [
 arjuna uvāca
 sannyāsasya mahā-bāho

@@ -1,3 +1,5 @@
+`set context { chapter.title = "साङ्ख्ययोगः" }
+
 `sanjaya `uvacha
 `v 1 [
 सञ्जय उवाच

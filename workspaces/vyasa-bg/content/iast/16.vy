@@ -1,3 +1,5 @@
+`set context { chapter.title = "Daivāsura-sampad-vibhāga-yogaḥ" }
+
 `v 1 [
 śrī-bhagavān uvāca
 abhayaṁ sattva-saṁśuddhir

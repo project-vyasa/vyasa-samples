@@ -1,3 +1,5 @@
+`set context { chapter.title = "Vibhūti-yogaḥ" }
+
 `v 1 [
 śrī-bhagavān uvāca
 bhūya eva mahā-bāho

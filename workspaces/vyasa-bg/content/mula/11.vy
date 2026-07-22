@@ -1,3 +1,5 @@
+`set context { chapter.title = "विश्वरूपदर्शनयोगः" }
+
 `arjuna `uvacha
 `v 1 [
 अर्जुन उवाच
