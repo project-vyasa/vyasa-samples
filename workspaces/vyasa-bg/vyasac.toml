@@ -1,6 +1,6 @@
 [workspace]
 name = "vyasa-bg"
-id = "bg"
+id = "vyasa-bg"
 title = "Bhagavad Gita"
 description = "Bhagavad Gita with Devanagari and IAST streams."
 [publish]

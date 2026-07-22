@@ -1,6 +1,6 @@
 [workspace]
 name = "vedabase-bg"
-id = "bg"
+id = "vedabase-bg"
 title = "Bhagavad Gita (Vedabase)"
 
 [publish]

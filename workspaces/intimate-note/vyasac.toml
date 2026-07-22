@@ -1,6 +1,6 @@
 [workspace]
 name = "intimate-note"
-id = "note"
+id = "intimate-note"
 title = "Intimate Note Sample"
 version = "0.1.0"
 [publish]

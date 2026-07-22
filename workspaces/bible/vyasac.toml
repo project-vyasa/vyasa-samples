@@ -1,6 +1,6 @@
 [workspace]
 name = "bible"
-id = "john"
+id = "bible"
 title = "Bible Sample"
 [publish]
 publisher_dir = "../../"

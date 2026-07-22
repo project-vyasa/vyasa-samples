@@ -1,6 +1,6 @@
 [workspace]
 name = "minimal"
-id = "min"
+id = "minimal"
 title = "Minimal Sample"
 version = "0.1.0"
 [publish]
