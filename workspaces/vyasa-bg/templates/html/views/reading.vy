@@ -44,13 +44,14 @@
                 color: #555;
                 font-size: 1.1rem;
                 white-space: pre-line;
-                display: inline;
+                display: block;
+                margin-top: 1rem;
             }
             .iast .verse {
                 display: inline;
             }
             .iast::after {
-                content: " ॥ " attr(data-urn) " ॥";
+                content: " ॥ " attr(data-verse) " ॥";
                 white-space: nowrap;
             }
         ]
@@ -68,7 +69,7 @@
     `div { class="verse-block" } [
         `div { class="verse-header" } [ {{ chapter }}:{{ verse }} ]
         `div { class="mula" } [ `stream { ref="mula" } ]
-        `div { class="iast" data-urn="{{ chapter }}:{{ verse }}" } [ `stream { ref="iast" } ]
+        `div { class="iast" data-verse="{{ verse }}" } [ `stream { ref="iast" } ]
     ]
 ]
 ]
