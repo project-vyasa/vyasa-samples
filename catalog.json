@@ -6,27 +6,32 @@
     {
       "id": "vyasa-bg",
       "title": "Bhagavad Gita",
-      "vyviewUrl": "vyasa-bg/vyasa-bg.vyview"
+      "vyviewUrl": "vyasa-bg/vyasa-bg.vyview",
+      "updated": 1784521891
     },
     {
       "id": "vedabase-bg",
       "title": "Bhagavad Gita (Vedabase)",
-      "vyviewUrl": "vedabase-bg/vedabase-bg.vyview"
+      "vyviewUrl": "vedabase-bg/vedabase-bg.vyview",
+      "updated": 1784505536
     },
     {
       "id": "bible",
       "title": "Bible Sample",
-      "vyviewUrl": "bible/bible.vyview"
+      "vyviewUrl": "bible/bible.vyview",
+      "updated": 1784505536
     },
     {
       "id": "intimate-note",
       "title": "Intimate Note Sample",
-      "vyviewUrl": "intimate-note/intimate-note.vyview"
+      "vyviewUrl": "intimate-note/intimate-note.vyview",
+      "updated": 1784505536
     },
     {
       "id": "minimal",
       "title": "Minimal Sample",
-      "vyviewUrl": "minimal/minimal.vyview"
+      "vyviewUrl": "minimal/minimal.vyview",
+      "updated": 1784505536
     }
   ]
 }
