@@ -17,7 +17,6 @@
     "publish:all": "npm run publish:vyasa-bg && npm run publish:vedabase-bg && npm run publish:bible && npm run publish:intimate-note && npm run publish:minimal",
     "build": "npm run build:all",
     "publish": "npm run publish:all",
-    "dev": "bunx sirv-cli dist --cors --port 8080",
     "deploy": "gh-pages -d dist --dotfiles --nojekyll"
   },
   "devDependencies": {

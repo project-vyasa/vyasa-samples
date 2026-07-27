@@ -7,8 +7,9 @@ version = "0.1.0"
 publisher_dir = "../../"
 
 [urn]
-path_schema = ["chapter"]
 hierarchy = ["number"]
 bit_layout = [16]
 
 [build.default]
+layout = "document"
+target = "view"
