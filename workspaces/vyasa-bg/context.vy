@@ -10,7 +10,6 @@
 `command-def { name="iast" category="content" }
 
 `command-def { name="annotate" category="metadata" flexible_args="true" }
-`command-def { name="note" category="metadata" flexible_args="true" }
 
 `alias-def { name="v" target="verse" }
 

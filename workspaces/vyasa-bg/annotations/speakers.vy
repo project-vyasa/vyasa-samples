@@ -2,9 +2,7 @@
 
 // Chapter 1
 `annotate "1:1" [
-    `[[ dhritarashtra.uvaca
-        `note "1:1#term-1" { type="editorial" } King Dhritarashtra asks about the battlefield of Kuruksetra.
-    ]] dhritarashtra.uvaca
+    `[[ dhritarashtra.uvaca ]] dhritarashtra.uvaca
 ]
 
 `annotate "1:2..1:20" [
@@ -17,9 +15,6 @@
 
 `annotate "1:24..1:27" [
     `[[ sanjaya.uvaca ]] sanjaya.uvaca
-    `annotate "1:25" [
-        `[[ krishna.uvaca ]] krishna.uvaca
-    ]
 ]
 
 `annotate "1:28..1:45" [
