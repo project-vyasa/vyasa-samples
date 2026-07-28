@@ -23,4 +23,10 @@
 		root * /Users/anand/Projects/project-vyasa/muktabodha.org/dist
 		file_server
 	}
+
+	# Publisher 3: Sanskrit Wikisource (Rig Veda)
+	handle_path /sa_wikisource/* {
+		root * /Users/anand/Projects/project-vyasa/sa.wikisource.org/dist
+		file_server
+	}
 }
