@@ -17,4 +17,4 @@ This directory contains reference implementations of Vyasa projects.
 | **minimal** | "Hello World" | Basic structure, default templates. |
 | **bible** | Continuous Narrative | **Stream-based architecture**. Using `alias-def` for verses (`v`) for continuous prose where structure is secondary to flow. |
 | **intimate-note** | Freeform Notes | **Whitespace preservation**. Custom formatting templates (`center`, `right`) and semantic tagging (`knowledge-sheet`). |
-| **bhagavad-gita** | Structured Verse | **Container/Pattern-based architecture**. Complex internal structure per verse (Sanskrit, Transliteration, Word-for-word, Translation, Purport) using state management (`set entities`) and context. |
+| **vyasa-bg** | Structured Verse + Annotations | **Multi-stream** (mula + iast), inter-verse speaker colophons, `annotations/speakers.vy` for speaker metadata. See [`vyasa-bg/README.md`](vyasa-bg/README.md). |

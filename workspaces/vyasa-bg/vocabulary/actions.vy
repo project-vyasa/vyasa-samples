@@ -1,6 +1,8 @@
+// Canonical action IDs used in annotations and UI chrome.
+// Display strings live in content/<stream>/localization.vy — not here.
+
 `actions {
-    "uvaca" = "उवाच"
-    "uvacha" = "उवाच"
-    "speaker" = "वक्ता"
-    "note" = "टिप्पणी"
+    "uvaca" = "uvaca",
+    "speaker" = "speaker",
+    "note" = "note"
 }

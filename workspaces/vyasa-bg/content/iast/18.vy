@@ -1,15 +1,15 @@
 `set context { chapter.title = "Mokṣa-sannyāsa-yogaḥ" }
 
-`v 1 [
 arjuna uvāca
+`v 1 [
 sannyāsasya mahā-bāho
 tattvam icchāmi veditum
 tyāgasya ca hṛṣīkeśa
 pṛthak keśi-niṣūdana
 ]
 
-`v 2 [
 śrī-bhagavān uvāca
+`v 2 [
 kāmyānāṁ karmaṇāṁ nyāsaṁ
 sannyāsaṁ kavayo viduḥ
 sarva-karma-phala-tyāgaṁ
@@ -506,16 +506,16 @@ kaccid ajñāna-sammohaḥ
 praṇaṣṭas te dhanañ-jaya
 ]
 
-`v 73 [
 arjuna uvāca
+`v 73 [
 naṣṭo mohaḥ smṛtir labdhā
 tvat-prasādān mayācyuta
 sthito ’smi gata-sandehaḥ
 kariṣye vacanaṁ tava
 ]
 
-`v 74 [
 sañjaya uvāca
+`v 74 [
 ity ahaṁ vāsudevasya
 pārthasya ca mahātmanaḥ
 saṁvādam imam aśrauṣam

@@ -1,8 +1,7 @@
 `set context { chapter.title = "Karma-yogaḥ" }
 
-`arjuna `uvacha
-`v 1 [
 arjuna uvāca
+`v 1 [
 jyāyasī cet karmaṇas te
 matā buddhir janārdana
 tat kiṁ karmaṇi ghore māṁ
@@ -16,8 +15,8 @@ tad ekaṁ vada niścitya
 yena śreyo ’ham āpnuyām
 ]
 
-`v 3 [
 śrī-bhagavān uvāca
+`v 3 [
 loke ’smin dvi-vidhā niṣṭhā
 purā proktā mayānagha
 jñāna-yogena sāṅkhyānāṁ
@@ -248,17 +247,16 @@ sva-dharme nidhanaṁ śreyaḥ
 para-dharmo bhayāvahaḥ
 ]
 
-`arjuna `uvacha
-`v 36 [
 arjuna uvāca
+`v 36 [
 atha kena prayukto ’yaṁ
 pāpaṁ carati pūruṣaḥ
 anicchann api vārṣṇeya
 balād iva niyojitaḥ
 ]
 
-`v 37 [
 śrī-bhagavān uvāca
+`v 37 [
 kāma eṣa krodha eṣa
 rajo-guṇa-samudbhavaḥ
 mahāśano mahā-pāpmā

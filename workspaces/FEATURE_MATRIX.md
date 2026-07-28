@@ -2,7 +2,7 @@
 
 This matrix tracks the coverage of Vyasa language features across the available sample workspaces.
 
-| Feature Category | Feature | Syntax / Command | `minimal` | `bible` | `intimate-note` | `bhagavad-gita` |
+| Feature Category | Feature | Syntax / Command | `minimal` | `bible` | `intimate-note` | `vyasa-bg` |
 | :--- | :--- | :--- | :---: | :---: | :---: | :---: |
 | **Structure** | Command Definition | `` `command-def `` | ❌ | ✅ | ✅ | ✅ |
 | | Alias Definition | `` `alias-def `` | ❌ | ✅ | ❌ | ✅ |
@@ -15,8 +15,10 @@ This matrix tracks the coverage of Vyasa language features across the available 
 | **Templating** | Native Templates | `` `template `` | ❌ | ✅ | ✅ | ✅ |
 | | Variable Sub. | `$.text`, `$.arg` | ❌ | ✅ | ✅ | ✅ |
 | | HTML Tags | `` `div { ... } `` | ❌ | ✅ | ✅ | ✅ |
-| **Events/State** | Inline Entity | `` `entity `` | ❌ | ❌ | ❌ | ✅ |
+| **Events/State** | Inline Entity | `` `entity `` | ❌ | ❌ | ❌ | ❌ |
 | | Event Header | `` `( ... ) `` | ❌ | ❌ | ❌ | ❌ |
+| | Annotations | `` `annotate `` | ❌ | ❌ | ❌ | ✅ |
+| | Inter-verse text | *plain text between* `` `v `` | ❌ | ❌ | ❌ | ✅ |
 | **Formatting** | Preserve Whitespace | `whitespace="preserve"` | ❌ | ❌ | ✅ | ✅ |
 | | Line Break | `` `break `` | ❌ | ✅ | ✅ | ❌ |
 | **URN** | URN Scheme | `[urn] scheme` | ❌ | ❌ | ❌ | ✅ |
@@ -43,10 +45,10 @@ Demonstrates unstructured/semi-structured note-taking.
 - Heavily uses `whitespace="preserve"`.
 - Uses styling templates (`center`, `right`).
 
-### bhagavad-gita
-The most complex sample, demonstrating structured data and state.
-- **State Management**: Uses `set entities` and `entity` commands to track speakers.
-- **URN Config**: Defines `[urn]` scheme and hierarchy in `vyasac.toml`.
-- **Reference View**: Includes a `reference` view (`--view reference`) that outputs verses only (Devanāgarī + IAST), stripping all commentary.
-- **Complex Templates**: Renders multi-part verses (Sanskrit, Translation, Purport).
-- **Segments**: Uses `|` to separate fields in structured data rows.
+### vyasa-bg
+Structured multi-stream verse sample (mula + iast).
+- **Annotations**: Speaker ranges in `annotations/speakers.vy` via `annotate` and `*.uvaca` aliases.
+- **Inter-verse colophons**: Traditional `X uvāca` lines as plain text between `` `v `` blocks (segment 0 reserved for verse body).
+- **URN Config**: `[urn]` hierarchy `chapter` → `verse` in `vyasac.toml`.
+- **Vocabulary**: `vocabulary/structure.vy` for Devanagari structure labels.
+- **Templates**: Multi-stream reading layout in `templates/html/views/`.

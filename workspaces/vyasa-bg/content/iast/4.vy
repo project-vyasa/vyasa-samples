@@ -1,7 +1,7 @@
 `set context { chapter.title = "Jñāna-karma-sannyāsa-yogaḥ" }
 
-`v 1 [
 śrī-bhagavān uvāca
+`v 1 [
 imaṁ vivasvate yogaṁ
 proktavān aham avyayam
 vivasvān manave prāha
@@ -22,17 +22,16 @@ bhakto ’si me sakhā ceti
 rahasyaṁ hy etad uttamam
 ]
 
-`arjuna `uvacha
-`v 4 [
 arjuna uvāca
+`v 4 [
 aparaṁ bhavato janma
 paraṁ janma vivasvataḥ
 katham etad vijānīyāṁ
 tvam ādau proktavān iti
 ]
 
-`v 5 [
 śrī-bhagavān uvāca
+`v 5 [
 bahūni me vyatītāni
 janmāni tava cārjuna
 tāny ahaṁ veda sarvāṇi

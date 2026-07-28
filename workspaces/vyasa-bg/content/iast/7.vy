@@ -1,7 +1,7 @@
 `set context { chapter.title = "Jñāna-vijñāna-yogaḥ" }
 
-`v 1 [
 śrī-bhagavān uvāca
+`v 1 [
 mayy āsakta-manāḥ pārtha
 yogaṁ yuñjan mad-āśrayaḥ
 asaṁśayaṁ samagraṁ māṁ

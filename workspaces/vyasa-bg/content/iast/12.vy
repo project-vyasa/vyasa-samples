@@ -1,16 +1,15 @@
 `set context { chapter.title = "Bhakti-yogaḥ" }
 
-`arjuna `uvacha
-`v 1 [
 arjuna uvāca
+`v 1 [
 evaṁ satata-yuktā ye
 bhaktās tvāṁ paryupāsate
 ye cāpy akṣaram avyaktaṁ
 teṣāṁ ke yoga-vittamāḥ
 ]
 
-`v 2 [
 śrī-bhagavān uvāca
+`v 2 [
 mayy āveśya mano ye māṁ
 nitya-yuktā upāsate
 śraddhayā parayopetās

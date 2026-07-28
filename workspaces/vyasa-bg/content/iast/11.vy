@@ -1,8 +1,7 @@
 `set context { chapter.title = "Viśva-rūpa-darśana-yogaḥ" }
 
-`arjuna `uvacha
-`v 1 [
 arjuna uvāca
+`v 1 [
 mad-anugrahāya paramaṁ
 guhyam adhyātma-saṁjñitam
 yat tvayoktaṁ vacas tena
@@ -30,8 +29,8 @@ yogeśvara tato me tvaṁ
 darśayātmānam avyayam
 ]
 
-`v 5 [
 śrī-bhagavān uvāca
+`v 5 [
 paśya me pārtha rūpāṇi
 śataśo ’tha sahasraśaḥ
 nānā-vidhāni divyāni
@@ -59,9 +58,8 @@ divyaṁ dadāmi te cakṣuḥ
 paśya me yogam aiśvaram
 ]
 
-`sanjaya `uvacha
-`v 9 [
 sañjaya uvāca
+`v 9 [
 evam uktvā tato rājan
 mahā-yogeśvaro hariḥ
 darśayām āsa pārthāya
@@ -103,9 +101,8 @@ praṇamya śirasā devaṁ
 kṛtāñjalir abhāṣata
 ]
 
-`arjuna `uvacha
-`v 15 [
 arjuna uvāca
+`v 15 [
 paśyāmi devāṁs tava deva dehe
 sarvāṁs tathā bhūta-viśeṣa-saṅghān
 brahmāṇam īśaṁ kamalāsana-stham
@@ -224,8 +221,8 @@ vijñātum icchāmi bhavantam ādyaṁ
 na hi prajānāmi tava pravṛttim
 ]
 
-`v 32 [
 śrī-bhagavān uvāca
+`v 32 [
 kālo ’smi loka-kṣaya-kṛt pravṛddho
 lokān samāhartum iha pravṛttaḥ
 ṛte ’pi tvāṁ na bhaviṣyanti sarve
@@ -246,18 +243,16 @@ mayā hatāṁs tvaṁ jahi mā vyathiṣṭhā
 yudhyasva jetāsi raṇe sapatnān
 ]
 
-`sanjaya `uvacha
-`v 35 [
 sañjaya uvāca
+`v 35 [
 etac chrutvā vacanaṁ keśavasya
 kṛtāñjalir vepamānaḥ kirīṭī
 namaskṛtvā bhūya evāha kṛṣṇaṁ
 sa-gadgadaṁ bhīta-bhītaḥ praṇamya
 ]
 
-`arjuna `uvacha
-`v 36 [
 arjuna uvāca
+`v 36 [
 sthāne hṛṣīkeśa tava prakīrtyā
 jagat prahṛṣyaty anurajyate ca
 rakṣāṁsi bhītāni diśo dravanti
@@ -334,8 +329,8 @@ tenaiva rūpeṇa catur-bhujena
 sahasra-bāho bhava viśva-mūrte
 ]
 
-`v 47 [
 śrī-bhagavān uvāca
+`v 47 [
 mayā prasannena tavārjunedaṁ
 rūpaṁ paraṁ darśitam ātma-yogāt
 tejo-mayaṁ viśvam anantam ādyaṁ
@@ -356,26 +351,24 @@ vyapeta-bhīḥ prīta-manāḥ punas tvaṁ
 tad eva me rūpam idaṁ prapaśya
 ]
 
-`sanjaya `uvacha
-`v 50 [
 sañjaya uvāca
+`v 50 [
 ity arjunaṁ vāsudevas tathoktvā
 svakaṁ rūpaṁ darśayām āsa bhūyaḥ
 āśvāsayām āsa ca bhītam enaṁ
 bhūtvā punaḥ saumya-vapur mahātmā
 ]
 
-`arjuna `uvacha
-`v 51 [
 arjuna uvāca
+`v 51 [
 dṛṣṭvedaṁ mānuṣaṁ rūpaṁ
 tava saumyaṁ janārdana
 idānīm asmi saṁvṛttaḥ
 sa-cetāḥ prakṛtiṁ gataḥ
 ]
 
-`v 52 [
 śrī-bhagavān uvāca
+`v 52 [
 su-durdarśam idaṁ rūpaṁ
 dṛṣṭavān asi yan mama
 devā apy asya rūpasya

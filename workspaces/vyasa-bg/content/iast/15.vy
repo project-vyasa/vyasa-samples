@@ -1,7 +1,7 @@
 `set context { chapter.title = "Puruṣottama-yogaḥ" }
 
-`v 1 [
 śrī-bhagavān uvāca
+`v 1 [
 ūrdhva-mūlam adhaḥ-śākham
 aśvatthaṁ prāhur avyayam
 chandāṁsi yasya parṇāni

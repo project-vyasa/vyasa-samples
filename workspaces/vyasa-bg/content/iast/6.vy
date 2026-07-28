@@ -1,7 +1,7 @@
 `set context { chapter.title = "Ātma-saṃyama-yogaḥ" }
 
-`v 1 [
 śrī-bhagavān uvāca
+`v 1 [
 anāśritaḥ karma-phalaṁ
 kāryaṁ karma karoti yaḥ
 sa sannyāsī ca yogī ca
@@ -226,9 +226,8 @@ sukhaṁ vā yadi vā duḥkhaṁ
 sa yogī paramo mataḥ
 ]
 
-`arjuna `uvacha
-`v 33 [
 arjuna uvāca
+`v 33 [
 yo ’yaṁ yogas tvayā proktaḥ
 sāmyena madhusūdana
 etasyāhaṁ na paśyāmi
@@ -242,8 +241,8 @@ tasyāhaṁ nigrahaṁ manye
 vāyor iva su-duṣkaram
 ]
 
-`v 35 [
 śrī-bhagavān uvāca
+`v 35 [
 asaṁśayaṁ mahā-bāho
 mano durnigrahaṁ calam
 abhyāsena tu kaunteya
@@ -257,9 +256,8 @@ vaśyātmanā tu yatatā
 śakyo ’vāptum upāyataḥ
 ]
 
-`arjuna `uvacha
-`v 37 [
 arjuna uvāca
+`v 37 [
 ayatiḥ śraddhayopeto
 yogāc calita-mānasaḥ
 aprāpya yoga-saṁsiddhiṁ
@@ -280,8 +278,8 @@ tvad-anyaḥ saṁśayasyāsya
 chettā na hy upapadyate
 ]
 
-`v 40 [
 śrī-bhagavān uvāca
+`v 40 [
 pārtha naiveha nāmutra
 vināśas tasya vidyate
 na hi kalyāṇa-kṛt kaścid

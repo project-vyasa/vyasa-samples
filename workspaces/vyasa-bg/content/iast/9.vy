@@ -1,7 +1,7 @@
 `set context { chapter.title = "Rāja-vidyā-rāja-guhya-yogaḥ" }
 
-`v 1 [
 śrī-bhagavān uvāca
+`v 1 [
 idaṁ tu te guhya-tamaṁ
 pravakṣyāmy anasūyave
 jñānaṁ vijñāna-sahitaṁ

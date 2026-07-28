@@ -1,16 +1,15 @@
 `set context { chapter.title = "Karma-sannyāsa-yogaḥ" }
 
-`arjuna `uvacha
-`v 1 [
 arjuna uvāca
+`v 1 [
 sannyāsaṁ karmaṇāṁ kṛṣṇa
 punar yogaṁ ca śaṁsasi
 yac chreya etayor ekaṁ
 tan me brūhi su-niścitam
 ]
 
-`v 2 [
 śrī-bhagavān uvāca
+`v 2 [
 sannyāsaḥ karma-yogaś ca
 niḥśreyasa-karāv ubhau
 tayos tu karma-sannyāsāt

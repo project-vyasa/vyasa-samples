@@ -1,16 +1,15 @@
 `set context { chapter.title = "Śraddhā-traya-vibhāga-yogaḥ" }
 
-`arjuna `uvacha
-`v 1 [
 arjuna uvāca
+`v 1 [
 ye śāstra-vidhim utsṛjya
 yajante śraddhayānvitāḥ
 teṣāṁ niṣṭhā tu kā kṛṣṇa
 sattvam āho rajas tamaḥ
 ]
 
-`v 2 [
 śrī-bhagavān uvāca
+`v 2 [
 tri-vidhā bhavati śraddhā
 dehināṁ sā svabhāva-jā
 sāttvikī rājasī caiva

@@ -1,16 +1,15 @@
 `set context { chapter.title = "Sāṅkhya-yogaḥ" }
 
-`sanjaya `uvacha
-`v 1 [
 sañjaya uvāca
+`v 1 [
 taṁ tathā kṛpayāviṣṭam
 aśru-pūrṇākulekṣaṇam
 viṣīdantam idaṁ vākyam
 uvāca madhusūdanaḥ
 ]
 
-`v 2 [
 śrī-bhagavān uvāca
+`v 2 [
 kutas tvā kaśmalam idaṁ
 viṣame samupasthitam
 anārya-juṣṭam asvargyam
@@ -24,9 +23,8 @@ kṣudraṁ hṛdaya-daurbalyaṁ
 tyaktvottiṣṭha paran-tapa
 ]
 
-`arjuna `uvacha
-`v 4 [
 arjuna uvāca
+`v 4 [
 kathaṁ bhīṣmam ahaṁ saṅkhye
 droṇaṁ ca madhusūdana
 iṣubhiḥ pratiyotsyāmi
@@ -61,9 +59,8 @@ avāpya bhūmāv asapatnam ṛddhaṁ
 rājyaṁ surāṇām api cādhipatyam
 ]
 
-`sanjaya `uvacha
-`v 9 [
 sañjaya uvāca
+`v 9 [
 evam uktvā hṛṣīkeśaṁ
 guḍākeśaḥ paran-tapaḥ
 na yotsya iti govindam
@@ -77,8 +74,8 @@ senayor ubhayor madhye
 viṣīdantam idaṁ vacaḥ
 ]
 
-`v 11 [
 śrī-bhagavān uvāca
+`v 11 [
 aśocyān anvaśocas tvaṁ
 prajñā-vādāṁś ca bhāṣase
 gatāsūn agatāsūṁś ca
@@ -379,17 +376,16 @@ samādhāv acalā buddhis
 tadā yogam avāpsyasi
 ]
 
-`arjuna `uvacha
-`v 54 [
 arjuna uvāca
+`v 54 [
 sthita-prajñasya kā bhāṣā
 samādhi-sthasya keśava
 sthita-dhīḥ kiṁ prabhāṣeta
 kim āsīta vrajeta kim
 ]
 
-`v 55 [
 śrī-bhagavān uvāca
+`v 55 [
 prajahāti yadā kāmān
 sarvān pārtha mano-gatān
 ātmany evātmanā tuṣṭaḥ

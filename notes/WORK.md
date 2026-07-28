@@ -17,10 +17,8 @@ This repo validates Vyasa **end-to-end from a publisher POV**: workspace layout,
 
 ## NEXT
 
-- [ ] **vyasa-bg: `extend` merge at pack** — iast can list overrides only once vyasac resolves `extend = "primary"`.
 - [ ] **vedabase-bg** — align with current compiler/schema after vyasa-bg patterns settle.
-- [ ] **FEATURE_MATRIX.md** — add annotations, inter-verse text, localization (not stream vocabulary in `context.vy`).
-- [ ] **Expand speaker annotations** — `annotations/speakers.vy` currently covers ch 1, 7, 13, 18 only; extend to all chapters.
+- [ ] **FEATURE_MATRIX.md** — add annotations, inter-verse text, localization.
 
 ## LATER
 
@@ -50,7 +48,7 @@ This repo validates Vyasa **end-to-end from a publisher POV**: workspace layout,
 - [x] **vyasa-bg baggage removal** — entity command-defs, debug-marker templates, `event_header.subject_key`, unused speaker CSS.
 - [x] **Authoring docs** — `workspaces/vyasa-bg/README.md` (inter-verse text, annotations, URN segments).
 - [x] **Explicit workspace design doc** — vocabulary vs localization, primary stream (option C), shift-left validation.
-- [x] **vyasa-bg vocabulary / localization split** — sample restructured; vyasac `localization.vy` sidecar support.
+- [x] **Expand speaker annotations** — `annotations/speakers.vy` covers all 18 chapters (60 ranges); derived from inter-verse colophons; fixed ch 1 v20 sanjaya / v21 arjuna split.
 
 ---
 

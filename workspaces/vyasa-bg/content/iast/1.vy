@@ -1,17 +1,15 @@
 `set context { chapter.title = "Arjuna-viṣāda-yogaḥ" }
 
-`dhritarashtra `uvacha
-`v 1 [
 dhṛtarāṣṭra uvāca
+`v 1 [
 dharma-kṣetre kuru-kṣetre
 samavetā yuyutsavaḥ
 māmakāḥ pāṇḍavāś caiva
 kim akurvata sañjaya
 ]
 
-`sanjaya `uvacha
-`v 2 [
 sañjaya uvāca
+`v 2 [
 dṛṣṭvā tu pāṇḍavānīkaṁ
 vyūḍhaṁ duryodhanas tadā
 ācāryam upasaṅgamya
@@ -146,9 +144,8 @@ hṛṣīkeśaṁ tadā vākyam
 idam āha mahī-pate
 ]
 
-`arjuna `uvacha
-`v 21 [
 arjuna uvāca
+`v 21 [
 senayor ubhayor madhye
 rathaṁ sthāpaya me ’cyuta
 yāvad etān nirīkṣe ’haṁ
@@ -167,9 +164,8 @@ dhārtarāṣṭrasya durbuddher
 yuddhe priya-cikīrṣavaḥ
 ]
 
-`sanjaya `uvacha
-`v 24 [
 sañjaya uvāca
+`v 24 [
 evam ukto hṛṣīkeśo
 guḍākeśena bhārata
 senayor ubhayor madhye
@@ -199,9 +195,8 @@ kṛpayā parayāviṣṭo
 viṣīdann idam abravīt
 ]
 
-`arjuna `uvacha
-`v 28 [
 arjuna uvāca
+`v 28 [
 dṛṣṭvemaṁ sva-janaṁ kṛṣṇa
 yuyutsuṁ samupasthitam
 sīdanti mama gātrāṇi
@@ -329,9 +324,8 @@ dhārtarāṣṭrā raṇe hanyus
 tan me kṣema-taraṁ bhavet
 ]
 
-`sanjaya `uvacha
-`v 46 [
 sañjaya uvāca
+`v 46 [
 evam uktvārjunaḥ saṅkhye
 rathopastha upāviśat
 visṛjya sa-śaraṁ cāpaṁ

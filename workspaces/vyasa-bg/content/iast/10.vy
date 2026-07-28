@@ -1,7 +1,7 @@
 `set context { chapter.title = "Vibhūti-yogaḥ" }
 
-`v 1 [
 śrī-bhagavān uvāca
+`v 1 [
 bhūya eva mahā-bāho
 śṛṇu me paramaṁ vacaḥ
 yat te ’haṁ prīyamāṇāya
@@ -78,9 +78,8 @@ nāśayāmy ātma-bhāva-stho
 jñāna-dīpena bhāsvatā
 ]
 
-`arjuna `uvacha
-`v 12 [
 arjuna uvāca
+`v 12 [
 paraṁ brahma paraṁ dhāma
 pavitraṁ paramaṁ bhavān
 puruṣaṁ śāśvataṁ divyam
@@ -129,8 +128,8 @@ bhūyaḥ kathaya tṛptir hi
 śṛṇvato nāsti me ’mṛtam
 ]
 
-`v 19 [
 śrī-bhagavān uvāca
+`v 19 [
 hanta te kathayiṣyāmi
 divyā hy ātma-vibhūtayaḥ
 prādhānyataḥ kuru-śreṣṭha

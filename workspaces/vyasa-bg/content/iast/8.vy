@@ -1,8 +1,7 @@
 `set context { chapter.title = "Akṣara-brahma-yogaḥ" }
 
-`arjuna `uvacha
-`v 1 [
 arjuna uvāca
+`v 1 [
 kiṁ tad brahma kim adhyātmaṁ
 kiṁ karma puruṣottama
 adhibhūtaṁ ca kiṁ proktam
@@ -16,8 +15,8 @@ prayāṇa-kāle ca kathaṁ
 jñeyo ’si niyatātmabhiḥ
 ]
 
-`v 3 [
 śrī-bhagavān uvāca
+`v 3 [
 akṣaraṁ brahma paramaṁ
 svabhāvo ’dhyātmam ucyate
 bhūta-bhāvodbhava-karo

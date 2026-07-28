@@ -1,16 +1,15 @@
 `set context { chapter.title = "Kṣetra-kṣetrajña-vibhāga-yogaḥ" }
 
-`arjuna `uvacha
-`v 1 [
 arjuna uvāca
+`v 1 [
 prakṛtiṁ puruṣaṁ caiva
 kṣetraṁ kṣetra-jñam eva ca
 etad veditum icchāmi
 jñānaṁ jñeyaṁ ca keśava
 ]
 
-`v 2 [
 śrī-bhagavān uvāca
+`v 2 [
 idaṁ śarīraṁ kaunteya
 kṣetram ity abhidhīyate
 etad yo vetti taṁ prāhuḥ

@@ -1,7 +1,7 @@
 `set context { chapter.title = "Guṇa-traya-vibhāga-yogaḥ" }
 
-`v 1 [
 śrī-bhagavān uvāca
+`v 1 [
 paraṁ bhūyaḥ pravakṣyāmi
 jñānānāṁ jñānam uttamam
 yaj jñātvā munayaḥ sarve
@@ -141,17 +141,16 @@ janma-mṛtyu-jarā-duḥkhair
 vimukto ’mṛtam aśnute
 ]
 
-`arjuna `uvacha
-`v 21 [
 arjuna uvāca
+`v 21 [
 kair liṅgais trīn guṇān etān
 atīto bhavati prabho
 kim-ācāraḥ kathaṁ caitāṁs
 trīn guṇān ativartate
 ]
 
-`v 22 [
 śrī-bhagavān uvāca
+`v 22 [
 prakāśaṁ ca pravṛttiṁ ca
 moham eva ca pāṇḍava
 na dveṣṭi sampravṛttāni
