@@ -70,8 +70,8 @@ Narrative speech *within* a verse stays inside the verse.
 ## Speaker annotations
 
 ```vyasa
-`annotate "2:11..2:53" [
-    `[[ krishna.uvaca ]] krishna.uvaca
+`annotate 2:11..2:53 [
+    `krishna.uvaca
 ]
 ```
 
