@@ -2,6 +2,12 @@
 name = "vedabase-bg"
 id = "vedabase-bg"
 title = "Bhagavad Gita (Vedabase) Sample"
+description = "Multi-stream Bhagavad Gita sample with mula, IAST, and English translation in a Vedabase-style commentary layout."
+
+[catalog]
+type = "commentary"
+language = "en"
+license = "Sample"
 
 [publish]
 publisher_dir = "../../"

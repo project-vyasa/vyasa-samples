@@ -2,7 +2,14 @@
 name = "intimate-note"
 id = "intimate-note"
 title = "Intimate Note Sample"
+description = "Whitespace-preserving knowledge-sheet sample with semantic commands for poetry, dialogue, and transcripts."
 version = "0.1.0"
+
+[catalog]
+type = "note"
+language = "en"
+license = "Sample"
+
 [publish]
 publisher_dir = "../../"
 

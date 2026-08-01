@@ -2,7 +2,14 @@
 name = "minimal"
 id = "minimal"
 title = "Minimal Sample"
+description = "Bare-bones compile and pack smoke test with chapter hierarchy."
 version = "0.1.0"
+
+[catalog]
+type = "sample"
+language = "en"
+license = "Sample"
+
 [publish]
 publisher_dir = "../../"
 

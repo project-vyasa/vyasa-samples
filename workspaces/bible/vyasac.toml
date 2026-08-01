@@ -2,6 +2,13 @@
 name = "bible"
 id = "bible"
 title = "Bible Sample"
+description = "Stream-based chapter and verse sample with Words-of-Jesus styling and document layout."
+
+[catalog]
+type = "work"
+language = "en"
+license = "Public Domain"
+
 [publish]
 publisher_dir = "../../"
 

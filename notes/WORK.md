@@ -34,7 +34,8 @@ This repo validates Vyasa **end-to-end from a publisher POV**: workspace layout,
 | **Remove vocabulary stream-name heuristics** | `vyasa-apps` | [`explicit-workspace-design.md`](../../vyasa-apps/notes/explicit-workspace-design.md) |
 | Inter-verse text URN segments (`:pre`/`:post`) | `vyasa` | See `urn_bitwise_test.rs` |
 | Explorer/reader display of inter-verse text | `vyasa-apps` | Plain text between `v` blocks |
-| Annotation-driven speaker labels in reader | `vyasa-apps` | Consume `annotations/speakers.vy` compiled output |
+| Annotation-driven speaker labels in reader | `vyasa-apps` | Done — chrome Labels + gutter badges; titlesByStream for container names |
+| Localized numerals for URN / component display | `vyasa-apps` (+ packer maps?) | See apps `WORK.md` NEXT |
 
 ## Open questions
 

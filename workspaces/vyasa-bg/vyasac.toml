@@ -2,7 +2,13 @@
 name = "vyasa-bg"
 id = "vyasa-bg"
 title = "Bhagavad Gita"
-description = "Bhagavad Gita with Devanagari and IAST streams."
+description = "Bhagavad Gita with Devanagari and IAST streams, speaker annotations, and multi-stream reading templates."
+
+[catalog]
+type = "work"
+language = "sa"
+license = "Public Domain"
+
 [publish]
 publisher_dir = "../../"
 

@@ -1,5 +1,12 @@
 [publisher]
 identifier = "vysamples"
 title = "Project Vyasa Samples"
+description = "Official sample publications for Project Vyasa — workspaces for the compiler, viewer, and catalog identity model."
+homepage = "https://github.com/project-vyasa/vyasa-samples"
 url = "https://github.com/project-vyasa/vyasa-samples"
 catalog_url = "https://project-vyasa.github.io/vyasa-samples/catalog.json"
+
+[org]
+id = "project-vyasa"
+title = "Project Vyasa"
+homepage = "https://github.com/project-vyasa"
