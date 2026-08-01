@@ -1,37 +1,64 @@
 {
-  "schemaVersion": "1.0.0",
-  "identifier": "vysamples",
+  "schemaVersion": "catalog:1.1.0",
+  "id": "vysamples",
   "title": "Project Vyasa Samples",
+  "description": "Official sample publications for Project Vyasa — workspaces for the compiler, viewer, and catalog identity model.",
+  "homepage": "https://github.com/project-vyasa/vyasa-samples",
+  "publisher": {
+    "id": "project-vyasa",
+    "title": "Project Vyasa",
+    "homepage": "https://github.com/project-vyasa"
+  },
   "publications": [
     {
       "id": "vyasa-bg",
       "title": "Bhagavad Gita",
       "vyviewUrl": "vyasa-bg/vyasa-bg.vyview",
-      "updated": 1785307276
+      "updated": 1785570927,
+      "description": "Bhagavad Gita with Devanagari and IAST streams, speaker annotations, and multi-stream reading templates.",
+      "type": "work",
+      "language": "sa",
+      "license": "Public Domain"
     },
     {
       "id": "vedabase-bg",
       "title": "Bhagavad Gita (Vedabase) Sample",
       "vyviewUrl": "vedabase-bg/vedabase-bg.vyview",
-      "updated": 1785307277
+      "updated": 1785570928,
+      "description": "Multi-stream Bhagavad Gita sample with mula, IAST, and English translation in a Vedabase-style commentary layout.",
+      "type": "commentary",
+      "language": "en",
+      "license": "Sample"
     },
     {
       "id": "bible",
       "title": "Bible Sample",
       "vyviewUrl": "bible/bible.vyview",
-      "updated": 1785307278
+      "updated": 1785570928,
+      "description": "Stream-based chapter and verse sample with Words-of-Jesus styling and document layout.",
+      "type": "work",
+      "language": "en",
+      "license": "Public Domain"
     },
     {
       "id": "intimate-note",
       "title": "Intimate Note Sample",
       "vyviewUrl": "intimate-note/intimate-note.vyview",
-      "updated": 1785307278
+      "updated": 1785570928,
+      "description": "Whitespace-preserving knowledge-sheet sample with semantic commands for poetry, dialogue, and transcripts.",
+      "type": "note",
+      "language": "en",
+      "license": "Sample"
     },
     {
       "id": "minimal",
       "title": "Minimal Sample",
       "vyviewUrl": "minimal/minimal.vyview",
-      "updated": 1785307278
+      "updated": 1785570928,
+      "description": "Bare-bones compile and pack smoke test with chapter hierarchy.",
+      "type": "sample",
+      "language": "en",
+      "license": "Sample"
     }
   ]
 }
