@@ -18,3 +18,7 @@
     "speaker" = "vaktā",
     "note" = "ṭippaṇī"
 }
+
+`facets {
+    "speaker" = "Speaker"
+}

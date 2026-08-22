@@ -20,6 +20,8 @@ hierarchy = ["chapter", "verse"]
 enable_markdown = true
 layout = "document"
 target = "view"
+publisher_css = ["styles/indic-verse.css"]
+css = ["templates/html/theme.css"]
 [dependencies]
 base_corpus = { package = "vyasa-bg" }
 

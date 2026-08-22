@@ -1,0 +1,70 @@
+@import url("https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&display=swap");
+
+html.theme-light,
+html {
+	--vyasa-paper: #fdfdfd;
+	--vyasa-ink: #1a1a1a;
+}
+
+html.theme-dark {
+	--vyasa-paper: #1a1a1a;
+	--vyasa-ink: #e8e8e8;
+}
+
+body {
+	font-family: Inter, -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Helvetica, Arial,
+		sans-serif;
+	margin: 0;
+	color: var(--vyasa-ink);
+	background-color: var(--vyasa-paper);
+}
+
+.reading-body {
+	margin: 2rem auto;
+	max-width: 650px;
+	padding: 0 1rem;
+	line-height: 1.75;
+	font-size: 1.05rem;
+}
+
+.chapter-title {
+	font-size: 2.2rem;
+	margin-bottom: 1.5rem;
+	color: var(--vyasa-ink);
+	font-weight: 700;
+	display: block;
+}
+
+h1 {
+	font-size: 1.05rem;
+	font-weight: bold;
+	color: var(--vyasa-ink);
+	margin-top: 1.5rem;
+	margin-bottom: 0.5rem;
+}
+
+.verse-num {
+	font-size: 0.7em;
+	vertical-align: super;
+	color: #999;
+	margin-right: 0.2em;
+	font-weight: bold;
+	line-height: 0;
+}
+
+.verse {
+	margin-right: 0.35em;
+}
+
+.wj {
+	color: #c0392b;
+}
+
+html.theme-dark .wj {
+	color: #e57373;
+}
+
+br {
+	display: block;
+	margin-top: 0.75em;
+}

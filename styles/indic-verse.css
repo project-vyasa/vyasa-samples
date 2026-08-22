@@ -1,0 +1,70 @@
+@import url("https://fonts.googleapis.com/css2?family=Noto+Sans+Devanagari:wght@400;500;700&family=Noto+Serif:ital,wght@0,100..900;1,100..900&display=swap");
+
+:root {
+	--vyasa-font-deva: "Noto Sans Devanagari", sans-serif;
+	--vyasa-font-body: "Noto Serif", serif;
+	--vyasa-stream-body-size: 1.25rem;
+	--vyasa-stream-body-line: 1.5;
+	--vyasa-stream-body-weight: 500;
+	--vyasa-stream-body-color: #334155;
+	--vyasa-stream-commentary-size: 1.05rem;
+	--vyasa-stream-commentary-line: 1.5;
+	--vyasa-stream-commentary-color: #64748b;
+	--vyasa-content-max-width: 48rem;
+	--vyasa-paper: #fcfcfc;
+	--vyasa-ink: #333333;
+}
+
+html.theme-light,
+html {
+	--vyasa-paper: #fcfcfc;
+	--vyasa-ink: #333333;
+	--vyasa-stream-body-color: #334155;
+	--vyasa-stream-commentary-color: #64748b;
+}
+
+html.theme-dark {
+	--vyasa-paper: #1a1a1a;
+	--vyasa-ink: #e8e8e8;
+	--vyasa-stream-body-color: #e2e8f0;
+	--vyasa-stream-commentary-color: #94a3b8;
+}
+
+body {
+	font-family: var(--vyasa-font-body);
+	margin: 0;
+	padding: 2rem;
+	line-height: 1.6;
+	color: var(--vyasa-ink);
+	background-color: var(--vyasa-paper);
+}
+
+.content {
+	max-width: var(--vyasa-content-max-width);
+	margin: 0 auto;
+}
+
+/* Grid: weave_layout injects packed html_blocks into .vyasa-block-{streamId} columns. */
+.vyasa-block-mula {
+	font-family: var(--vyasa-font-deva);
+	font-size: var(--vyasa-stream-body-size);
+	font-weight: var(--vyasa-stream-body-weight);
+	line-height: var(--vyasa-stream-body-line);
+	color: var(--vyasa-stream-body-color);
+}
+.vyasa-block-mula .verse {
+	white-space: pre-line;
+	overflow-wrap: break-word;
+}
+
+.vyasa-block-iast {
+	font-family: var(--vyasa-font-body);
+	font-style: italic;
+	font-size: var(--vyasa-stream-commentary-size);
+	line-height: var(--vyasa-stream-commentary-line);
+	color: var(--vyasa-stream-commentary-color);
+}
+.vyasa-block-iast .verse {
+	white-space: pre-line;
+	overflow-wrap: break-word;
+}

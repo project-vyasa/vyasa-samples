@@ -28,6 +28,7 @@ Apps-facing backlog: [`vyasa-apps/notes/WORK.md`](../vyasa-apps/notes/WORK.md)
 
 | File | Purpose |
 |------|---------|
+| [`view-templates-guide.md`](../../vyasa-apps/docs/guides/view-templates-guide.md) | **Draft** in vyasa-apps — view templates, content themes (→ vyasa-docs) |
 | [`explicit-workspace-design.md`](./explicit-workspace-design.md) | **Durable principles** — explicit workspace declarations, vocabulary vs localization, primary stream, shift-left validation |
 | [`TEMPLATE.md`](./TEMPLATE.md) | Blank template — copy or reset from this |
 | [`WORK.md`](./WORK.md) | Live queue — edit together (NOW / NEXT / LATER) |

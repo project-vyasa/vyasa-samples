@@ -28,6 +28,7 @@ Simple formatting commands allow for visual control:
 
 ### 4. Typography
 -   **Font**: Uses **Noto Serif** (from Google Fonts) to match the printed book aesthetic.
+-   **CSS**: Publisher sheet `styles/prose.css` (`publisher_css`); workspace `templates/html/theme.css` for overrides.
 -   **Layout**: Carefully tuned margins and line-height (1.4) for readability.
 
 ## Content Structure

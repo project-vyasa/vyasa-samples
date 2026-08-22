@@ -1,0 +1,113 @@
+/* Vedabase commentary chrome. Tokens/fonts/themes: styles/indic-verse.css */
+
+body {
+	max-width: 1200px;
+	margin: 0 auto;
+	padding: 20px;
+}
+
+h1 {
+	text-align: center;
+	color: #d35400;
+	border-bottom: 2px solid #eee;
+	padding-bottom: 1rem;
+}
+
+html.theme-dark h1 {
+	border-bottom-color: #333;
+}
+
+.verse-container {
+	border-bottom: 1px solid #eee;
+	padding: 40px 0;
+}
+html.theme-dark .verse-container {
+	border-bottom-color: #333;
+}
+
+.verse-header {
+	margin-bottom: 20px;
+}
+.verse-id {
+	font-size: 1.2rem;
+	font-weight: bold;
+	color: #7f8c8d;
+}
+
+.verse-grid {
+	display: flex;
+	flex-direction: column;
+	gap: 20px;
+}
+
+.column-header {
+	font-size: 0.8rem;
+	text-transform: uppercase;
+	letter-spacing: 1px;
+	color: #999;
+	margin-bottom: 10px;
+	border-bottom: 1px solid #eee;
+	padding-bottom: 5px;
+}
+html.theme-dark .column-header {
+	border-bottom-color: #333;
+}
+
+.section-title {
+	font-size: 1.2rem;
+	font-weight: bold;
+	margin-top: 1.5rem;
+	margin-bottom: 0.5rem;
+	color: var(--vyasa-ink);
+}
+
+.mula {
+	font-family: var(--vyasa-font-deva);
+	font-size: 1.2rem;
+	line-height: 1.8;
+	white-space: pre-wrap;
+}
+.transliteration {
+	font-style: italic;
+	color: var(--vyasa-stream-commentary-color);
+	white-space: pre-wrap;
+}
+.translation {
+	line-height: 1.6;
+}
+
+.synonyms-grid {
+	display: grid;
+	grid-template-columns: auto 1fr;
+	column-gap: 15px;
+	row-gap: 8px;
+	line-height: 1.6;
+}
+.synonym-term {
+	font-weight: bold;
+	color: var(--vyasa-ink);
+}
+
+.entity-header,
+.uvacha-label {
+	display: inline-block;
+	font-weight: bold;
+	margin-right: 5px;
+}
+.entity-header::after {
+	content: " ";
+}
+
+.stream-preline {
+	white-space: pre-line;
+}
+.verse-leaf {
+	white-space: pre-line;
+	margin-bottom: 1.5rem;
+}
+.verse-leaf-label {
+	display: block;
+	color: var(--vyasa-stream-commentary-color);
+	font-size: 0.9em;
+	margin-bottom: 0.25rem;
+}

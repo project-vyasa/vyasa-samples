@@ -14,6 +14,7 @@ This repo validates Vyasa **end-to-end from a publisher POV**: workspace layout,
 
 - [x] **vyasa-bg content cleanup** — remove legacy `person uvaca` event headers; move speaker attribution text out of verse scope; speaker metadata lives in `annotations/speakers.vy`.
 - [x] **Rebuild vyasa-bg** — packed successfully with vyasac `localization.vy` sidecar support (rebuild vyasac from `vyasa/` first).
+- [x] **CSS files (HTML target)** — `publisher_css` / `css`; vyasa-bg + vedabase-bg share `styles/indic-verse.css`; intimate-note uses `styles/prose.css`; bible is self-contained (`templates/html/theme.css` only).
 
 ## NEXT
 

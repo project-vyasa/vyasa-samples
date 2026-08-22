@@ -19,3 +19,4 @@ bit_layout = [16]
 
 [build.default]
 layout = "document"
+css = ["templates/html/theme.css"]

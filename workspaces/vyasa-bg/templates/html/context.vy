@@ -1,25 +1,21 @@
-// Semantic HTML Templates
+// Semantic HTML Templates — structure only; typography lives in .css (publisher_css / css).
 
 `mula [
-`div { class="mula" style="white-space: pre-line;" } [$.body]
+`div { class="mula" } [$.body]
 ]
 
 `iast [
-`div { class="iast" style="white-space: pre-line;" } [$.body]
+`div { class="iast" } [$.body]
 ]
 
 `devanagari [
-`div { class="devanagari" style="white-space: pre-line;" } [$.body]
+`div { class="devanagari" } [$.body]
 ]
 
 `v [
-`div { class="verse" style="white-space: pre-line; margin-bottom: 1.5rem;" } [
-  `strong { style="display: block; color: #64748b; font-size: 0.9em; margin-bottom: 0.25rem;" } [Verse $.argument]
-  $.body
-]
+`div { class="verse" } [$.body]
 ]
 
-// Formatting helpers
 `ref [ `a { href="$.argument" } [$.body] ]
 `e1 [ `strong [$.body] ]
 `e2 [ `em [$.body] ]

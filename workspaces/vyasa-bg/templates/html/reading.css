@@ -1,0 +1,42 @@
+/* Craft reading view (stacked). Tokens come from publisher styles/indic-verse.css. */
+
+.verse-content {
+	text-align: center;
+	max-width: 36rem;
+	margin: 0 auto;
+	padding: 0.5rem 0 1.25rem;
+}
+.verse-block {
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+	gap: 0.85rem;
+}
+.verse-block .mula {
+	font-family: var(--vyasa-font-deva);
+	font-size: var(--vyasa-stream-body-size);
+	font-weight: var(--vyasa-stream-body-weight);
+	line-height: var(--vyasa-stream-body-line);
+	color: var(--vyasa-stream-body-color);
+	white-space: pre-line;
+	margin: 0;
+	max-width: 100%;
+}
+.verse-block .iast {
+	font-family: var(--vyasa-font-body);
+	font-style: italic;
+	font-size: var(--vyasa-stream-commentary-size);
+	line-height: var(--vyasa-stream-commentary-line);
+	color: var(--vyasa-stream-commentary-color);
+	white-space: pre-line;
+	display: block;
+	margin: 0;
+	max-width: 100%;
+}
+.verse-block .iast .verse {
+	display: inline;
+}
+.verse-block .iast::after {
+	content: " ॥ " attr(data-verse) " ॥";
+	white-space: nowrap;
+}

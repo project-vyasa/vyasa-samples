@@ -1,5 +1,9 @@
-// Publisher-crafted reading layout (draft — underscore prefix skips pack until promoted).
-// Theme shell lives in theme.vy; this file holds only the item weaving template.
+// Publisher-crafted reading view — stacked edition (not grid columns).
+// Craft CSS: templates/html/reading.css (listed in [build.default] css).
+
+`layout [
+{{ body }}
+]
 
 `item [
 `div { class="verse-content" } [

@@ -20,3 +20,5 @@ bit_layout = [16]
 [build.default]
 layout = "document"
 target = "view"
+publisher_css = ["styles/prose.css"]
+css = ["templates/html/theme.css"]

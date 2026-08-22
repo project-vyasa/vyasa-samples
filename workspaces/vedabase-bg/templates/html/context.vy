@@ -36,31 +36,31 @@
 `translation [
     `div { class="translation-box" } [
         `div { class="section-title" } [Translation]
-        `div { style="white-space: pre-line;" } [$.body]
+        `div { class="stream-preline" } [$.body]
     ]
 ]
 
 `purport [
     `div { class="purport-box" } [
         `div { class="section-title" } [Purport]
-        `div { style="white-space: pre-line;" } [$.body]
+        `div { class="stream-preline" } [$.body]
     ]
 ]
 
 `synonyms [
     `div { class="synonyms-box" } [
         `div { class="section-title" } [Synonyms]
-        `div { class="synonyms-grid" style="display: grid; grid-template-columns: max-content 1fr; gap: 0.2rem 1rem; margin-top: 0.5rem;" } [$.body]
+        `div { class="synonyms-grid" } [$.body]
     ]
 ]
 
 `mula [
-    `div { class="mula" style="white-space: pre-line;" } [$.body]
+    `div { class="mula" } [$.body]
 ]
 
 `v [
-    `div { class="verse" style="white-space: pre-line; margin-bottom: 1.5rem;" } [
-      `strong { style="display: block; color: #64748b; font-size: 0.9em; margin-bottom: 0.25rem;" } [Verse $.argument]
+    `div { class="verse verse-leaf" } [
+      `strong { class="verse-leaf-label" } [Verse $.argument]
       $.body
     ]
 ]

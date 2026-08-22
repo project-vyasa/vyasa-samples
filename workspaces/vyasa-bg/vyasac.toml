@@ -22,3 +22,6 @@ iast = { path = "content/iast" }
 
 [build.default]
 target = "view"
+streams = ["mula", "iast"]
+publisher_css = ["styles/indic-verse.css"]
+css = ["templates/html/theme.css", "templates/html/reading.css"]
