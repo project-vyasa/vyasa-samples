@@ -10,7 +10,7 @@ language = "en"
 license = "Public Domain"
 
 [publish]
-publisher_dir = "../../"
+publisher_dir = "../../vysamples"
 
 [urn]
 path_schema = ["chapter"]
@@ -20,3 +20,4 @@ bit_layout = [16]
 [build.default]
 layout = "document"
 css = ["templates/html/theme.css"]
+content_themes = ["light"]

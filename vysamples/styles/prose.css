@@ -11,6 +11,11 @@ html.theme-dark {
 	--vyasa-ink: #e8e8e8;
 }
 
+html.theme-parchment {
+	--vyasa-paper: #f3e6c8;
+	--vyasa-ink: #3c2a18;
+}
+
 body {
 	font-family: "Noto Serif", serif;
 	color: var(--vyasa-ink);

@@ -11,7 +11,7 @@ language = "en"
 license = "Sample"
 
 [publish]
-publisher_dir = "../../"
+publisher_dir = "../../vysamples"
 
 [urn]
 path_schema = ["chapter"]
@@ -20,3 +20,4 @@ bit_layout = [16]
 
 [build.default]
 layout = "document"
+publisher_css = ["styles/prose.css"]

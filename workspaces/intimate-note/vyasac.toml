@@ -11,7 +11,7 @@ language = "en"
 license = "Sample"
 
 [publish]
-publisher_dir = "../../"
+publisher_dir = "../../vysamples"
 
 [urn]
 hierarchy = ["number"]

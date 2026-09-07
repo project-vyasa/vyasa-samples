@@ -1,3 +1,10 @@
+# Local catalog server for Project Vyasa development.
+# Paths are relative to this Caddyfile (Caddy 2.6+).
+# Committed registry (local-registry.json) lists vysamples only.
+# For multi-publisher testing: cp local-registry.local.json.example local-registry.local.json
+#
+# Sibling repos (integrator paths below): vyasa-samples, muktabodha.org, sa.wikisource.org
+
 :8080 {
 	header {
 		Access-Control-Allow-Origin "*"
@@ -5,28 +12,26 @@
 		Access-Control-Allow-Headers "*"
 	}
 
-	# Local Registry
 	handle /registry.json {
-		root * /Users/anand/Projects/project-vyasa/vyasa-samples
-		rewrite * /local-registry.json
+		root * .
+		try_files /local-registry.local.json /local-registry.json
 		file_server
 	}
 
-	# Publisher 1: Project Vyasa Samples
+	# vysamples (this repo)
 	handle_path /vysamples/* {
-		root * /Users/anand/Projects/project-vyasa/vyasa-samples/dist
+		root * ./vysamples/dist
 		file_server
 	}
 
-	# Publisher 2: Muktabodha Digital Library
+	# Integrator-only: other publisher dist/ trees (see local-registry.local.json.example)
 	handle_path /muktabodha/* {
-		root * /Users/anand/Projects/project-vyasa/muktabodha.org/dist
+		root * ../muktabodha.org/muktabodha/dist
 		file_server
 	}
 
-	# Publisher 3: Sanskrit Wikisource (Rig Veda)
 	handle_path /sa_wikisource/* {
-		root * /Users/anand/Projects/project-vyasa/sa.wikisource.org/dist
+		root * ../sa.wikisource.org/sa_wikisource/dist
 		file_server
 	}
 }

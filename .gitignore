@@ -3,3 +3,4 @@ dist/
 .DS_Store
 build/
 logs/
+local-registry.local.json

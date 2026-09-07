@@ -5,16 +5,6 @@
       "identifier": "vysamples",
       "title": "Project Vyasa Samples",
       "catalog_url": "http://localhost:8080/vysamples/catalog.json"
-    },
-    {
-      "identifier": "muktabodha",
-      "title": "Muktabodha Digital Library",
-      "catalog_url": "http://localhost:8080/muktabodha/catalog.json"
-    },
-    {
-      "identifier": "sa_wikisource",
-      "title": "Sanskrit Wikisource (विकिस्रोतः)",
-      "catalog_url": "http://localhost:8080/sa_wikisource/catalog.json"
     }
   ]
 }

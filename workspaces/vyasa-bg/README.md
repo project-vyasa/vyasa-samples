@@ -15,7 +15,7 @@ Structured verse publication with **mula** (Devanagari) and **iast** translitera
 | `templates/html/` | Stream block templates (`context.vy`); `theme.css` / `reading.css` listed in `[build.default] css` |
 | `templates/html/views/theme.vy` | `theme_layout` body slot — shell + CSS from packer |
 | `templates/html/views/reading.vy` | Craft stacked reading — `item` weaving (`reading.css` for craft rules) |
-| `styles/indic-verse.css` | Publisher-shared tokens, `html.theme-*`, grid `.vyasa-block-*` (`publisher_css`) |
+| `vysamples/styles/indic-verse.css` | Publisher-shared tokens, `html.theme-*`, grid `.vyasa-block-*` (`publisher_css`) |
 
 See also [`notes/explicit-workspace-design.md`](../../notes/explicit-workspace-design.md) for vocabulary vs localization principles.
 
@@ -85,10 +85,10 @@ bun run build:vyasa-bg
 Verify the pack without sqlite3:
 
 ```bash
-vyasac inspect dist/vyasa-bg/vyasa-bg.vyview
-vyasac inspect --table html_templates dist/vyasa-bg/vyasa-bg.vyview
-vyasac inspect --urn 1:1 dist/vyasa-bg/vyasa-bg.vyview
-vyasac inspect --check dist/vyasa-bg/vyasa-bg.vyview
+vyasac inspect vysamples/dist/vyasa-bg/vyasa-bg.vyview
+vyasac inspect --table html_templates vysamples/dist/vyasa-bg/vyasa-bg.vyview
+vyasac inspect --urn 1:1 vysamples/dist/vyasa-bg/vyasa-bg.vyview
+vyasac inspect --check vysamples/dist/vyasa-bg/vyasa-bg.vyview
 ```
 
 ## Removed legacy patterns

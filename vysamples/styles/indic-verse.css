@@ -30,6 +30,13 @@ html.theme-dark {
 	--vyasa-stream-commentary-color: #94a3b8;
 }
 
+html.theme-parchment {
+	--vyasa-paper: #f3e6c8;
+	--vyasa-ink: #3c2a18;
+	--vyasa-stream-body-color: #3c2a18;
+	--vyasa-stream-commentary-color: #6b5344;
+}
+
 body {
 	font-family: var(--vyasa-font-body);
 	margin: 0;

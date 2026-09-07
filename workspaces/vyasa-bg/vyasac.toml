@@ -10,7 +10,7 @@ language = "sa"
 license = "Public Domain"
 
 [publish]
-publisher_dir = "../../"
+publisher_dir = "../../vysamples"
 
 [urn]
 path_schema = ["chapter"]

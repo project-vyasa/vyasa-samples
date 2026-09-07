@@ -6,11 +6,6 @@ html {
 	--vyasa-ink: #1a1a1a;
 }
 
-html.theme-dark {
-	--vyasa-paper: #1a1a1a;
-	--vyasa-ink: #e8e8e8;
-}
-
 body {
 	font-family: Inter, -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Helvetica, Arial,
 		sans-serif;

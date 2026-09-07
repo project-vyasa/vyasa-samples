@@ -24,7 +24,7 @@
     "build": "npm run build:all",
     "publish": "npm run publish:all",
     "predeploy": "npm run build",
-    "deploy": "gh-pages -d dist --dotfiles --nojekyll"
+    "deploy": "gh-pages -d vysamples/dist --dotfiles --nojekyll"
   },
   "devDependencies": {
     "gh-pages": "^6.1.1",
