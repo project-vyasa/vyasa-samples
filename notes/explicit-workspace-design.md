@@ -26,7 +26,7 @@ Authors express meaning in durable, version-controlled files:
 
 | Concern | Where | Example |
 |---------|-------|---------|
-| Stream layout & primary text | `vyasac.toml` `[streams]` | `primary = { path = "content/mula" }` |
+| Stream layout & primary text | `content/<folder>/stream.toml` | `primary = true` on the URN spine |
 | URN hierarchy | `vyasac.toml` `[urn]` | `hierarchy = ["chapter", "verse"]` |
 | Semantic aliases (entities) | `vocabulary/` | canonical IDs, alternate names (RFC-019 §4) |
 | Stream display labels | `content/<stream>/localization.vy` | structure terms for that stream’s UI |
@@ -40,13 +40,14 @@ If a downstream consumer (viewer, search, graph export) needs to know something,
 
 The primary stream is the **authoritative text** for URNs and the **default label set** for streams that do not define their own localization.
 
-Declare it explicitly in `vyasac.toml`:
+Declare it with `primary = true` in that stream’s `stream.toml`:
 
 ```toml
-[streams]
-primary = { path = "content/mula" }
-iast      = { path = "content/iast" }
-# translation = { path = "content/translation" }  # future
+# content/mula/stream.toml
+language = "sa"
+script = "Deva"
+kind = "source"
+primary = true
 ```
 
 **Resolution order (target behaviour, option C):**
@@ -99,7 +100,7 @@ Authors declare display strings with a top-level `` `localization `` command in 
 `localization { extend = "primary" }
 ```
 
-`primary` is the stream id declared in `vyasac.toml` under `[streams] primary = { path = … }`. A stream may also extend a named peer, e.g. `extend = "mula"`.
+`primary` in templates (`ref="primary"`, `extend = "primary"`) is a pack-time alias for the folder whose `stream.toml` sets `primary = true`. A stream may also extend a named peer, e.g. `extend = "mula"`.
 
 Overlay only keys that differ:
 
@@ -225,7 +226,7 @@ If a stream needs another stream’s labels, the author must declare `` `localiz
 | `vocabulary/entities.vy`, `actions.vy` | Canonical ID registry (identity values) |
 | `content/mula/localization.vy` | Primary display labels (Devanagari) |
 | `content/iast/localization.vy` | IAST display labels + `extend = "primary"` |
-| `vyasac.toml` `[streams] primary` | Declares authoritative stream path |
+| `content/mula/stream.toml` `primary = true` | Declares the URN spine |
 
 ### Target (when `extend` merge lands in vyasac)
 

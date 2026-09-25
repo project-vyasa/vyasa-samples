@@ -21,10 +21,14 @@ See also [`notes/explicit-workspace-design.md`](../../notes/explicit-workspace-d
 
 ## Streams
 
+Facts live in `content/<folder>/stream.toml`. Packed id is the folder name. `mula` sets `primary = true` (URN spine).
+
 ```toml
-[streams]
-primary = { path = "content/mula" }
-iast      = { path = "content/iast" }
+# content/mula/stream.toml
+language = "sa"
+script = "Deva"
+kind = "source"
+primary = true
 ```
 
 **Primary** (`mula`) is the authoritative text for URNs and the baseline for display labels. The iast stream declares `` `localization { extend = "primary" } `` and overrides structure/entity/action labels for its convention.
@@ -85,10 +89,10 @@ bun run build:vyasa-bg
 Verify the pack without sqlite3:
 
 ```bash
-vyasac inspect vysamples/dist/vyasa-bg/vyasa-bg.vyview
-vyasac inspect --table html_templates vysamples/dist/vyasa-bg/vyasa-bg.vyview
-vyasac inspect --urn 1:1 vysamples/dist/vyasa-bg/vyasa-bg.vyview
-vyasac inspect --check vysamples/dist/vyasa-bg/vyasa-bg.vyview
+vyasav inspect vysamples/dist/vyasa-bg/vyasa-bg.vyview
+vyasav inspect --table html_templates vysamples/dist/vyasa-bg/vyasa-bg.vyview
+vyasav inspect --urn 1:1 vysamples/dist/vyasa-bg/vyasa-bg.vyview
+vyasav inspect --check vysamples/dist/vyasa-bg/vyasa-bg.vyview
 ```
 
 ## Removed legacy patterns

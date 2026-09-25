@@ -22,10 +22,6 @@ layout = "document"
 target = "view"
 publisher_css = ["styles/indic-verse.css"]
 css = ["templates/html/theme.css"]
+
 [dependencies]
 base_corpus = { package = "vyasa-bg" }
-
-[streams]
-mula = { path = "content/mula" }
-iast = { path = "content/iast" }
-translation = { path = "content/translation" }

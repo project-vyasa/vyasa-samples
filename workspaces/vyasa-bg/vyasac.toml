@@ -16,10 +16,6 @@ publisher_dir = "../../vysamples"
 path_schema = ["chapter"]
 hierarchy = ["chapter", "verse"]
 
-[streams]
-primary = { path = "content/mula" }
-iast = { path = "content/iast" }
-
 [build.default]
 target = "view"
 streams = ["mula", "iast"]

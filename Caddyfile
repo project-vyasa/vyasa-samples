@@ -1,9 +1,9 @@
 # Local catalog server for Project Vyasa development.
 # Paths are relative to this Caddyfile (Caddy 2.6+).
-# Committed registry (local-registry.json) lists vysamples only.
-# For multi-publisher testing: cp local-registry.local.json.example local-registry.local.json
+# Registry: local-registry.json (vysamples + sibling publishers).
+# Optional override: cp local-registry.local.json.example local-registry.local.json
 #
-# Sibling repos (integrator paths below): vyasa-samples, muktabodha.org, sa.wikisource.org
+# Sibling repos: vyasa-samples, muktabodha.org, sa.wikisource.org
 
 :8080 {
 	header {

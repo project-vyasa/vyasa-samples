@@ -1,0 +1,4 @@
+# Overlay stream. URN spine is inherited from [dependencies] vyasa-bg (mula).
+language = "en"
+script = "Latn"
+kind = "translation"

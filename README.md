@@ -42,13 +42,12 @@ The viewer loads local catalogs/registries via Settings (not Vite middleware). `
 caddy run --config Caddyfile
 ```
 
-**Committed registry** (`local-registry.json`) lists **vysamples only** — what sample-repo contributors need.
+**Committed registry** (`local-registry.json`) lists **vysamples**, **muktabodha**, and **sa_wikisource** (the same routes this Caddyfile serves).
 
-**Multi-publisher testing:** copy the example and reload Caddy:
+To serve a different set, copy the example and edit; Caddy prefers the local file when it exists:
 
 ```bash
 cp local-registry.local.json.example local-registry.local.json
-caddy reload --config Caddyfile
 ```
 
 `local-registry.local.json` is gitignored. The Caddyfile serves it when present; otherwise it falls back to `local-registry.json`.

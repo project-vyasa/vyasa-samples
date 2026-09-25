@@ -18,7 +18,7 @@ This repo validates Vyasa **end-to-end from a publisher POV**: workspace layout,
 
 ## NEXT
 
-- [ ] **vedabase-bg** — align with current compiler/schema after vyasa-bg patterns settle.
+- [x] **vedabase-bg** — English `translation` overlay; URN spine inherited from `[dependencies] vyasa-bg` (`mula`). Do not set `primary = true` on translation.
 - [ ] **FEATURE_MATRIX.md** — add annotations, inter-verse text, localization.
 
 ## LATER
